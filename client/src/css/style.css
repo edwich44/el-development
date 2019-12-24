@@ -12,3 +12,13 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/* Custom styles */
+
+.no-border {
+  border-style: none!important;
+}
+
+.material-icons.inline-icon {
+  vertical-align: bottom;
+}

@@ -21,4 +21,13 @@
 
 .material-icons.inline-icon {
   vertical-align: bottom;
+  margin-right: 5px;
+}
+
+i.modal-trigger {
+  cursor: pointer;
+}
+
+.card .card-image img{
+  padding: 24px;
 }

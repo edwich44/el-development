@@ -49,30 +49,28 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/122011/sitecore.png?itok=pmDNtFV0">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4">Sitecore<i class="material-icons right modal-trigger" data-target="modal2">more_vert</i></span>
+              <p>4 years experience</p>
+              <p>Sitecore Certified, worked with Sitecore 8.1 to 9.1</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
+          
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+          
         </div>
       </div>
 
@@ -115,11 +113,75 @@
       </div>
     </div>
   </footer>
-
-
+ 
+        
+  <!-- Modal -->
+  <div id="modal1" class="modal card">
+    <div class="modal-content">
+      <h4>4 years Experience with Sitecore</h4>
+      <p>Below are my experiences with Sitecore. I have used various versions etc</p>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a class="active" href="#test4">Sitecore 9</a></li>
+          <li class="tab"><a  href="#test5">Sitecore 8</a></li>
+          <li class="tab"><a href="#test6">Upgraded Sitecore 8 to 9</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="test4">
+          <p>McCann Central 2017-Present</p>
+          <div>
+              <p>Working on Marley Ltd, hosted Microsoft Azure, and ultilizing Sitecores new features, such as the Form wizard. With this site I built forms which interacted with the clients SOAP API, also working with client side framework Stimilus JS</p>
+              <ul class="collection no-border">
+                <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Sitecore 9</span></li>
+                <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Sitecore Form Builder</span></li>
+                <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Microsoft Azure</span></li>
+                <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Stimilus JS</span></li>
+              </ul>
+          </div>
+        </div>
+        <div id="test5">Test 2</div>
+        <div id="test6">Test 3</div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>4 years Experience with Sitecore</h4>
+      <p>Below are my experiences with Sitecore. I have used various versions etc</p>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i>Sitecore 9 - McCann Central 2017-Present</div>
+          <div class="collapsible-body">
+            <p>Working on Marley Ltd, hosted Microsoft Azure, and ultilizing Sitecores new features, such as the Form wizard. With this site I built forms which interacted with the clients SOAP API, also working with client side framework Stimilus JS</p>
+            <ul class="collection no-border">
+              <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Sitecore 9</span></li>
+              <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Sitecore Form Builder</span></li>
+              <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Microsoft Azure</span></li>
+              <li class="collection-item"><i class="material-icons inline-icon green-text text-lighten-2">check_box</i><span>Stimilus JS</span></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Sitecore 8 - IMO Agency 2016-17, McCann Central 2017-Present</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Upgrade</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="/client/dist/js/main.min.js"></script>
-
+<script>
+    $('.collapsible').collapsible();
+</script>
   </body>
 </html>

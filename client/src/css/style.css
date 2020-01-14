@@ -31,3 +31,11 @@ i.modal-trigger {
 .card .card-image img{
   padding: 24px;
 }
+
+.collapsible-body {
+  padding: 1rem;
+}
+
+.collapsible-body p {
+  margin: 0.5em;
+}

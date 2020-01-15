@@ -20,6 +20,11 @@ h1.small {
   font-size: 3.2rem;
 }
 
+h2.small {
+  font-size: 2.92rem;
+  margin: 1.424rem 0 1.424rem 0;
+}
+
 .no-border {
   border-style: none!important;
 }
@@ -47,4 +52,8 @@ i.modal-trigger {
 
 .collapsible-body p {
   margin: 0.5em;
+}
+
+.row.bigger-margin {
+  margin-bottom: 38.9px;
 }

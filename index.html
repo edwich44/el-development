@@ -8,17 +8,48 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="/client/dist/css/main.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- Remove afterwards -->
+  <style >
+.main {
+  background-color: #63967c!important;
+}
+
+.main-img::after  {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 75%;
+  height: 150%;
+  width: 150%;
+  background : #63967c;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-22deg);
+      transform: rotate(-22deg);
+}
+
+.main-img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  background: url(/images/edd-lynch.png) no-repeat right 0px top;
+  float: right;
+}
+  </style>
+
+  <!--Remove afterwards-->
 </head>
 <body>
-  <div class="section no-pad-bot" id="index-banner">
+  <div class="section no-pad-bot no-padding main" id="index-banner">
     <div class="container">
-      <h1 class="header center theme-secondary-text small">Experienced .net Developer</h1>
       <div class="row center">
         <h5 class="header col s12 light">Sitecore and Umbraco certified with 5 years experience</h5>
       </div>
       <div class="row center container bigger-margin">
         <h6 class="header col s12 light">More coming soon!</h6>
       </div>
+      <div class="main-img"></div>
     </div>
   </div>
  

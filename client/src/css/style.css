@@ -29,8 +29,20 @@ h2.small {
   border-style: none!important;
 }
 
+.nowhitespace, .nowhitespace .row .col {
+  padding: 0px 0px!important;
+}
+
 .collection.no-border  .collection-item{
   border-bottom: none;
+}
+
+.collection .collection-item{
+  background: none!important;
+}
+
+.collection-item.padding-sml {
+  padding: 2px 0px;
 }
 
 .material-icons.inline-icon {
@@ -56,4 +68,12 @@ i.modal-trigger {
 
 .row.bigger-margin {
   margin-bottom: 38.9px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px!important;
+}
+
+.contact-details-collection {
+  margin: 30px 0 0 0;
 }

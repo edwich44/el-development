@@ -1,6 +1,6 @@
 /* Theme */
 
-.theme-main-text {
+.theme-main-text,  .theme-main-text a{
     color: #006442!important;
 }
 

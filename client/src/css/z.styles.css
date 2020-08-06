@@ -1,0 +1,11 @@
+/*
+Used to override styles of template
+*/
+
+.advs-box-top-icon .icon.services {
+    color:#63967c!important
+}
+
+.advs-box-side-icon .icon.features{
+    color: #b0cabc!important;
+}

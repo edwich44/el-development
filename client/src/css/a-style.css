@@ -427,7 +427,7 @@ hr.c {
 
 hr.d {
     background-position: center center;
-    background: url(/images/assets/gradient-line.png) no-repeat center;
+    background: url(images/assets/gradient-line.png) no-repeat center;
     background-size: contain;
     border: none;
     height: 3px;
@@ -435,7 +435,7 @@ hr.d {
 
 hr.d-dark {
     background-position: center center;
-    background: url(/images/assets/gradient-line-dark.png) no-repeat center;
+    background: url(images/assets/gradient-line-dark.png) no-repeat center;
     background-size: contain;
     border: none;
     height: 3px;
@@ -4773,7 +4773,7 @@ IMAGE BOX
     height: 47px;
     line-height: 14px;
     overflow: hidden;
-    background: url("/images/assets/bg-gradient.png") repeat-x top center;
+    background: url("images/assets/bg-gradient.png") repeat-x top center;
     background-color: transparent !important;
     color: white;
     text-shadow: 0 0 3px rgba(0,0,0,0.5);
@@ -4999,7 +4999,7 @@ TITLE ICON
     .title-icon i {
         font-size: 35px;
         width: 100%;
-        background-image: url(/images/assets/dotted-line.png);
+        background-image: url(images/assets/dotted-line.png);
         color: #BDBDBD;
         margin-bottom: 5px;
         background-position: center center;

@@ -6,7 +6,7 @@ class HttpClient {
     }
 
     get(url) {
-       return this.request.get(url);
+      return this.request.get(url);
     }
 }
 
@@ -14,19 +14,29 @@ class HttpClient {
 //TODO: Use a DI framework e.g. RequireJS to inject this into this class instead
 class Request {
     constructor(){
-        var xhttp = new XMLHttpRequest();
-        this.xhr = xhttp;
     }
 
     get(url) {
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-              return this.responseText;
-            }
-          };
+        return this.makeRequest(url);
+    }
 
-        this.xhr.open("GET", url, true);
-        this.xhr.send();
+    makeRequest(url) {
+        return new Promise(function(resolve, reject) {      
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.onload = function () {
+                if (this.status >= 200 && this.status < 300) {
+                  resolve(xhr.response);
+                } else {
+                  reject({
+                    status: this.status,
+                    statusText: xhr.statusText
+                  });
+                }
+              };
+            xhr.onerror = reject;
+            xhr.send();
+       });
     }
 }
 

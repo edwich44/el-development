@@ -11,7 +11,7 @@ gulp.task('css', () => {
 
   var minify = require('gulp-terser');
   gulp.task('js', function() {
-    return gulp.src('./src/js/*.js')
+    return gulp.src(['./src/js/*.js', '!./src/js/hailstone.*.js'])
       .pipe(minify())
       .pipe(concat('main.min.js'))
       .pipe(gulp.dest('./dist/js/'))

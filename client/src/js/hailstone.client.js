@@ -15,17 +15,29 @@ class HailStone {
 function getViews() {
     var getViewElms = document.querySelectorAll('[data-hailstone-routing-view]');
     
-    if(getViewElms || getViewElms.length == 0){
+    if(!getViewElms || getViewElms.length == 0){
         return;
     }
 
     var routingService = new RoutingService(new HttpClient());
 
-    for(x = 0; getViewElms.length > x; x++){
+    var count = 0;
+
+    for(x = count; getViewElms.length > x; x++){
       var getViewElm =  getViewElms[x];
       var url = getViewElm.getAttribute("data-hailstone-routing-view");
 
-      getViewElm.innerHTML = routingService.getView(url);
+      routingService.getView(url).then(function(response) {
+        var html = response;
+        if(html) {
+            getViewElms[count].innerHTML = html;
+          }
+          
+         count++;
+        }, function(reject){
+           //TODO: handle errors
+           count++;
+        });      
     }
 }
 

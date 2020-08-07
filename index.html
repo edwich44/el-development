@@ -17,12 +17,31 @@
 </head>
 <body >
     <div id="preloader"></div>
-    <header class="side-menu-header side-menu-lateral" data-menu-anima="default">
-        <div class="navbar-header">
-            <a class="hamburger-button" data-menu-anima="fade-left">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a class="navbar-brand" href="index.html"><img src="/images/logo.png" alt="logo" /> </a>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-in" data-hailstone-routing-view="/client/views/header.html">
+        <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo-default" src="/images/logo.png" alt="logo" />
+                            <img class="logo-retina" src="/images/logo-retina.png" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <div class="section-bg-animation header-animation" style="background-image:url('/images/bg-17.jpg');">
@@ -98,42 +117,42 @@
                 </div>
                 <div class="col-md-8">
                     <div class="flexslider slider" data-options="minWidth:200,controlNav:true,directionNav:false">
-                        
-                    <div class="flex-viewport" style="overflow: hidden; position: relative;">
-                        <ul class="slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-2250px, 0px, 0px);">
-                            <li class="clone" aria-hidden="true" style="width: 750px; float: left; display: block;">
+                        <ul class="slides">
+                            <li>
                                 <div class="advs-box niche-box-testimonails-cloud">
                                     <p>
-                                        Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                                        Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis eu lacus nunc mi elit vehicula ut laoreet
+                                        acliquam sit amet justo nunc tempor, metus vel. Amelius integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis.
                                     </p>
                                     <div class="name-box vertical-row" style="padding-left: 0px;">
-                                        <h5 class="vertical-col subtitle" style="border: none;">David Patrick<span class="subtxt">Web developer</span></h5>
+                                        <h5 class="vertical-col subtitle" style="border: none;">Federico Schiocchet<span class="subtxt">Marketing expert</span></h5>
                                     </div>
                                 </div>
                             </li>
-                            <li style="width: 750px; float: left; display: block;">
+                            <li>
                                 <div class="advs-box niche-box-testimonails-cloud">
                                     <p>
-                                        Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                                        Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis eu lacus nunc mi elit vehicula ut laoreet
+                                        acliquam sit amet justo nunc tempor, metus vel. Amelius integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis.
                                     </p>
                                     <div class="name-box vertical-row" style="padding-left: 0px;">
-                                        <h5 class="vertical-col subtitle" style="border: none;">David Patrick<span class="subtxt">Web developer</span></h5>
+                                        <h5 class="vertical-col subtitle" style="border: none;">Federico Schiocchet<span class="subtxt">Marketing expert</span></h5>
                                     </div>
                                 </div>
                             </li>
-                            <li style="width: 750px; float: left; display: block;" class="clone" aria-hidden="true">
+                            <li>
                                 <div class="advs-box niche-box-testimonails-cloud">
                                     <p>
-                                        Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                                        Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis eu lacus nunc mi elit vehicula ut laoreet
+                                        acliquam sit amet justo nunc tempor, metus vel. Amelius integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod iaculis.
                                     </p>
                                     <div class="name-box vertical-row" style="padding-left: 0px;">
-                                        <h5 class="vertical-col subtitle" style="border: none;">David Patrick<span class="subtxt">Web developer</span></h5>
+                                        <h5 class="vertical-col subtitle" style="border: none;">Federico Schiocchet<span class="subtxt">Marketing expert</span></h5>
                                     </div>
                                 </div>
-                                </li>
+                            </li>
                         </ul>
                     </div>
-                    <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li></ol></div>
                 </div>
             </div>
             <hr class="space s">
@@ -141,94 +160,125 @@
             <hr class="space s">
             <div class="row">
                 <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-support icon anima features" aid="0.0016042805459164367" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>24/7 support</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-money-2 icon anima features" aid="0.6733224448806232" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>Money-back guaranteed</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-shop-2 icon anima features" aid="0.12422821700465136" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>Dedicated team</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div>
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-support icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>24/7 support</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-money-2 icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Money-back guaranteed</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-business-mens icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Dedicated team</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
          <hr class="space m">
             <div class="row">
-             <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-lock-2 icon anima features" aid="0.638256303086989" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>No hidden costs</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-file-presentation icon anima features" aid="0.08379517860509256" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>Guaranteed satisfaction</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
-                     <div class="icon-box">
-                         <i class="im-file-pie icon anima features" aid="0.5397739690845453" style="position: relative; animation-duration: 500ms; transition-timing-function: ease; transition-delay: 0ms;"></i>
-                     </div>
-                     <div class="caption-box">
-                         <h3>Top quality</h3>
-                         <p>
-                             Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
-                             temporibus.
-                         </p>
-                     </div>
-                 </div>
-             </div> 
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-lock-2 icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>No hidden costs</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-eyeglasses-smiley2 icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Guaranteed satisfaction</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="scale-up" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="im-diamond icon anima features"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Top quality</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio repellat fugaurus expedita fusce
+                                temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
+    </div>
+    <div class="section-empty section-border" data-hailstone-routing-view="/client/views/contact-us.html">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="title-base text-left">
+                        <hr>
+                        <h2>Contact us</h2>
+                        <p>
+                            Keep in touch. Meet us and start a great collaboration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <img class="img-man" src="../images/man.png" alt="">
+                        <div class="col-md-5">
+        
+                        </div>
+                        <div class="col-md-7">
+                            <hr class="space m">
+                            <p class="block-quote quote-1">
+                                It is better to lead from behind and to put others in front,
+                                especially when you celebrate victory.
+                                <span class="quote-author">- Philip Errison</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </div>
     <footer class="footer-base footer-gray">
         <div class="content">
@@ -298,11 +348,6 @@
         <script src='/client/dist/js/jquery.slimscroll.min.js'></script>
         <script src='/client/dist/js/metis.menu.min.js'></script>
         <script type="text/javascript" src='/client/dist/js/jquery.flexslider-min.js'></script>
-
-        <script>
-            var hailStone = new HailStone();
-            document.getElementsByTagName("body").onload = hailStone.getViews();
-        </script>
     </footer>
 </body>
 </html>

@@ -9,7 +9,7 @@ gulp.task('css', () => {
   }); 
 
 
-  var minify = require('gulp-uglify');
+  var minify = require('gulp-terser');
   gulp.task('js', function() {
     return gulp.src('./src/js/*.js')
       .pipe(minify())

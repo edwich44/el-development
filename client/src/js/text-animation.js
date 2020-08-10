@@ -7,13 +7,13 @@ if(!elmToAddText || elmToAddText !== undefined || elmToAddText != null) {
       });
       
       typewriter
-        .typeString('Wed Design')
+        .typeString('Web Design')
         .pauseFor(900)
         .deleteAll()
         .typeString('Software Solutions')
         .pauseFor(900)
          .deleteAll()
-          .typeString('Contracing')
+          .typeString('Contracting')
           .pauseFor(900)
           .deleteAll()
         .start();

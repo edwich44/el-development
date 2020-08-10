@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home | Portfolio | TechLine</title>
     <meta name="description" content="Multipurpose HTML template.">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="/client/dist/js/jquery.min.js"></script>
-    <script src="/client/dist/js/main.min.js"></script>
     <link rel="stylesheet" href="/client/dist/css/main.min.css">
     <!-- <link rel="icon" href="/images/favicon.png"> -->
     <link rel="stylesheet" href="/client/dist/css/skin.css"><!-- Extra optional content header -->
@@ -44,30 +44,23 @@
             </div>
         </div>
     </header>
-    <div class="section-bg-animation header-animation" style="background-image:url('/images/bg-17.jpg');">
-        <div id="anima-layer-a" class="anima-layer clouds-1"></div>
-        <div id="anima-layer-b" class="anima-layer clouds-2"></div>
-        <div class="container content overlay-content">
-            <div class="box-middle">
-                <hr class="space" />
-                <div class="row">
-                    <div class="col-md-6">
-
-                    </div>
-                    <div class="col-md-6">
-                        <h1 class="text-light">Take a look to our portfolio</h1>
-                        <p>
-                            Lorem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation.
-                        </p>
-                        <img src="/images/sign-3.png" data-anima="show-scale" data-time="1600" alt="" />
-                    </div>
+    <div class="section-bg-video box-middle-container row-20" style="height: 700px!important;">
+        <div class="videobox">
+            <video autoplay loop muted poster="video-poster.jpg">
+                <source src="/images/video/Working-Space.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container content overlay-content box-middle">
+            <div class="row">
+                <div class="col-md-6 pull-right" data-anima="fade-right">
+                    <hr class="space visible-xs" />
+                    <h1 class="text-xl text-light font-2" style="color: #b0cabc!important;">EL Web Development</h1>
+                    <hr class="space xs" />
+                    <h4 class="font-2" style="font-size: 26px;color: #ffffff;" id="scroll-text-services"></h4>
                 </div>
-                <hr class="space" />
-                <hr class="space" />
             </div>
         </div>
-    </div>   
+    </div>
     <i class="scroll-top scroll-top-mobile fa fa-sort-asc"></i>
     <div class="section-empty">
         <div class="container content">
@@ -348,6 +341,7 @@
         <script src='/client/dist/js/jquery.slimscroll.min.js'></script>
         <script src='/client/dist/js/metis.menu.min.js'></script>
         <script type="text/javascript" src='/client/dist/js/jquery.flexslider-min.js'></script>
+        <script  src="/client/dist/js/main.min.js"></script>
     </footer>
 </body>
 </html>

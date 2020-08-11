@@ -14,6 +14,19 @@
     <link rel="stylesheet" href="/client/dist/css/main.min.css">
     <!-- <link rel="icon" href="/images/favicon.png"> -->
     <link rel="stylesheet" href="/client/dist/css/skin.css"><!-- Extra optional content header -->
+    <style>
+        .overlay-content:before {
+            content: '';
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+        }
+    </style>
 </head>
 <body >
     <div id="preloader"></div>
@@ -44,7 +57,7 @@
             </div>
         </div>
     </header>
-    <div class="section-bg-video box-middle-container row-20" style="height: 700px!important;">
+    <div class="section-bg-video box-middle-container row-20 overlay-content" style="height: 700px!important;">
         <div class="videobox">
             <video autoplay loop muted poster="video-poster.jpg">
                 <source src="/images/video/Working-Space.mp4" type="video/mp4">

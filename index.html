@@ -15,7 +15,7 @@
     <!-- <link rel="icon" href="/images/favicon.png"> -->
     <link rel="stylesheet" href="/client/dist/css/skin.css"><!-- Extra optional content header -->
     <style>
-        .overlay-content:before {
+        .section-bg-video:before {
             content: '';
             position: absolute;
             background: rgba(0, 0, 0, 0.5);
@@ -31,15 +31,9 @@
             height: 700px!important;
         }
 
-        @media (min-width:1900px) {
+        @media (min-width:600px) {
             .box-middle .video-hero-text {
                 text-align: center;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .section-bg-video.box-middle-container {
-                height: 500px!important;
             }
         }
     </style>
@@ -90,9 +84,16 @@
                 </div>
             </div>
         </div>
+        <div class="container-scroll-prompt">
+            <div class="row">
+                <div class="scroll-prompt">
+                    <a id="scroll-prompt" href="#section1"><span></span>Scroll</a>
+                </div>    
+            </div>
+        </div>
     </div>
     <i class="scroll-top scroll-top-mobile fa fa-sort-asc"></i>
-    <div class="section-empty">
+    <div id="section1"  class="section-empty">
         <div class="container content">
             <table class="grid-table border-table">
                 <tbody>

@@ -26,6 +26,22 @@
             left: 0;
             z-index: 2;
         }
+
+        .section-bg-video.box-middle-container {
+            height: 700px!important;
+        }
+
+        @media (min-width:1900px) {
+            .box-middle .video-hero-text {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .section-bg-video.box-middle-container {
+                height: 500px!important;
+            }
+        }
     </style>
 </head>
 <body >
@@ -57,19 +73,20 @@
             </div>
         </div>
     </header>
-    <div class="section-bg-video box-middle-container row-20 overlay-content" style="height: 700px!important;">
+    <div class="section-bg-video box-middle-container row-20 overlay-content">
         <div class="videobox">
-            <video autoplay loop muted poster="video-poster.jpg">
+            <video autoplay loop muted id="video-hero" data-max-width="600">
                 <source src="/images/video/Working-Space.mp4" type="video/mp4">
-            </video>
+           </video>
         </div>
         <div class="container content overlay-content box-middle">
             <div class="row">
-                <div class="col-md-6 pull-right" data-anima="fade-right">
+                <div class="col-md-12 video-hero-text" data-anima="fade-bottom">
                     <hr class="space visible-xs" />
                     <h1 class="text-xl text-light" style="color: #d7e4dd!important;">EL Web Development</h1>
                     <hr class="space xs" />
                     <h4  style="font-size: 26px;color: #ffffff;" id="scroll-text-services"></h4>
+                    <hr class="space xs" />
                 </div>
             </div>
         </div>
@@ -306,12 +323,6 @@
                             sequi exercitation excepteur fusce ultricies explicabo neque! Perpulvinar dictum dapibus.
                         </p>
                         <hr class="space s" />
-                        <div class="btn-group social-group btn-group-icons">
-                            <a target="_blank" href="#" data-social="share-facebook"><i class="fa fa-facebook"></i></a>
-                            <a target="_blank" href="#" data-social="share-twitter"><i class="fa fa-twitter"></i></a>
-                            <a target="_blank" href="#" data-social="share-google"><i class="fa fa-instagram"></i></a>
-                            <a target="_blank" href="#" data-social="share-linkedin"><i class="fa fa-youtube"></i></a>
-                        </div>
                     </div>
                     <div class="col-md-4 footer-right text-left">
                         <div class="row">
@@ -323,16 +334,6 @@
                                     <li><a href="#">Locations</a></li>
                                     <li><a href="#">Team members</a></li>
                                     <li><a href="#">Company</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="ul-squares">
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Terms of services</a></li>
-                                    <li><a href="#">RSS Feeds</a></li>
-                                    <li><a href="#">Partnerships</a></li>
-                                    <li><a href="#">RSS Feeds</a></li>
-                                    <li><a href="#">Latest news</a></li>
                                 </ul>
                             </div>
                         </div>

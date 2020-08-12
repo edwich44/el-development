@@ -1,6 +1,6 @@
 
 var elmToAddText = document.getElementById('scroll-text-services');
-if(!elmToAddText || elmToAddText !== undefined || elmToAddText != null) {
+if(elmToAddText && elmToAddText !== undefined) {
     var typewriter = new Typewriter(elmToAddText, {
         loop: true,
         delay: 75

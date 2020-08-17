@@ -48,7 +48,7 @@
         }
 
         .theme-main .flex-direction-nav li a {
-            background-color: #b0cabc!important;
+            background-color: #909090!important;
         }
 
         .theme-main .btn {
@@ -74,6 +74,7 @@
 </head>
 <body class="theme-main">
     <div id="preloader"></div>
+    <!-- Header Start -->
     <header class="fixed-top scroll-change" data-menu-anima="fade-in" data-hailstone-routing-view="/client/views/header.html">
         <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
             <div class="navbar navbar-main">
@@ -101,10 +102,11 @@
             </div>
         </div>
     </header>
+    <!-- Header End -->
     <div class="section-bg-video box-middle-container row-20 overlay-content">
         <div class="videobox">
-            <video autoplay loop muted id="video-hero" data-max-width="600">
-                <source src="/images/video/Working-Space.mp4" type="video/mp4">
+            <video autoplay loop muted id="video-hero" data-max-width="600" poster="/images/working-space_snapshot.jpg">
+                <source src="/images/video/working-space.mp4" type="video/mp4">
            </video>
         </div>
         <div class="container content overlay-content box-middle">
@@ -307,6 +309,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Contact us Start -->
     <div class="section-empty section-border" data-hailstone-routing-view="/client/views/contact-us.html">
         <div class="container content">
             <div class="row">
@@ -338,10 +342,11 @@
             </div>
         </div>        
     </div>
-    <!--  -->
-    <div class="section-empty case-studies">
+    <!-- Contact us End -->
+    <div class="section-empty">
         <div class="container content">
-            <div class="flexslider carousel nav-inner outer-navs" data-options="minWidth:250,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+         <!-- Case Studies Start -->
+            <div class="flexslider carousel nav-inner outer-navs case-studies" data-options="minWidth:250,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
                 <ul class="slides">
                     <li>
                         <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
@@ -437,6 +442,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- Case Studies End -->
             <hr class="space m" />
             <hr>
             <hr class="space m" />
@@ -455,8 +461,6 @@
             <hr class="space" />
         </div>
     </div>
-
-    <!--  -->
     <footer class="footer-base footer-gray">
         <div class="content">
             <div class="container">

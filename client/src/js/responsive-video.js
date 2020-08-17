@@ -7,7 +7,8 @@ if(video && video !== undefined) {
     if (windowWidth <= maxWidth) {
         //It is a small screen
         var sources = video.getElementsByTagName('source');
-        sources[0].src = "/images/video/Working-Space-mobile.mp4";
+        sources[0].src = "";
+        video.setAttribute('poster', '/images/working-space_snapshot_mobile.jpg');
         video.load();
     }
 }

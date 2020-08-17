@@ -73,4 +73,10 @@
       .container-scroll-prompt {
           display: none;
       }      
-}
+  }
+
+  @media (max-height: 699px) {
+    .scroll-prompt a {
+      bottom: 15%;
+     }
+   }

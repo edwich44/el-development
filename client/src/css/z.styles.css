@@ -76,6 +76,10 @@ body.theme-main .btn:hover {
     border: none;
 }
 
+.theme-main .navbar-main, .theme-main .navbar-header {
+    background-color: #63967c;
+}
+
 @media (min-width:600px) {
     .box-middle .video-hero-text {
         text-align: center;

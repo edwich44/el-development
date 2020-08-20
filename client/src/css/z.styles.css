@@ -9,3 +9,75 @@ Used to override styles of template
 .advs-box-side-icon .icon.features{
     color: #b0cabc!important;
 }
+
+.section-bg-video:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.section-bg-video.box-middle-container {
+    height: 700px!important;
+}
+
+.case-studies p.bd-day.alt-bg {
+    background-color: #63967c!important;
+}
+
+.case-studies .block-data {
+    background-color: #63967c!important;
+}
+
+.theme-main .flex-control-paging li a.flex-active {
+    background-color: #63967c!important;
+}
+
+.theme-main .case-studies .flex-control-paging li a.flex-active {
+    background-color: #f7f7f7!important;
+}
+
+.theme-main .flex-direction-nav li a {
+    background-color: #909090!important;
+}
+
+body.theme-main .btn {
+    background-color: #63967c!important;
+    border-color: #63967c!important;
+}
+
+body.theme-main .btn:hover {
+    background-color: #b0cabc!important;
+    border-color: #b0cabc!important;
+}
+
+.theme-main .call-action-box {
+    background-color: #63967c !important;
+}
+
+.video-hero-text h1 {
+    color: #d7e4dd!important;
+}
+
+.video-hero-text h4 {
+    font-size: 26px;color: #ffffff;
+}
+
+.niche-box-testimonails-cloud .name-box {
+    padding-left: 0px;
+}
+
+.niche-box-testimonails-cloud .vertical-col {
+    border: none;
+}
+
+@media (min-width:600px) {
+    .box-middle .video-hero-text {
+        text-align: center;
+    }
+}

@@ -80,6 +80,63 @@ body.theme-main .btn:hover {
     background-color: #63967c;
 }
 
+.theme-main header>.navbar {
+    border: none;
+}
+
+.theme-main .navbar-default .navbar-nav > li.active > a {
+    color: #f7f7f7!important;
+}
+
+.theme-main .navbar-default .navbar-nav > li > a {
+    color: #b0cabc!important;
+}
+
+.theme-main .navbar-default .navbar-nav > li > a:hover, .theme-main .navbar-default .navbar-nav > li.active > a:hover {
+    color: #f7f7f7!important;
+}
+
+.theme-main .navbar .nav > li.active {
+    border-bottom-color: #f7f7f7!important;
+}
+
+.theme-main .navbar-default .navbar-toggle:hover {
+    background-color: #b0cabc!important;
+}
+
+.theme-main .navbar-default .navbar-toggle:focus {
+    background-color: #b0cabc!important;
+}
+.theme-main .navbar-toggle .fa-bars {
+    color: #f7f7f7!important;
+}
+
+.contact-us.section-two-blocks>.row>div:last-child {
+    background-color: #fff;
+}
+
+@media (max-width:992px) {
+    .theme-main .call-action-box > div:nth-child(3) {
+        position: initial;
+        background: none;
+    }
+
+    .theme-main .call-action-box > div:nth-child(2) > p {
+        text-align: center;
+    }
+
+    .theme-main .call-action-box a.btn.btn-sm {
+        background-color: #4F7863!important;
+        border-color: #4F7863!important;
+    }
+
+    .theme-main .vertical-row>div {
+        padding-top: 10px!important;;
+        padding-bottom: 10px!important;;
+    }
+}
+
+
 @media (min-width:600px) {
     .box-middle .video-hero-text {
         text-align: center;

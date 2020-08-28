@@ -8,7 +8,7 @@ if(video && video !== undefined) {
         //It is a small screen
         var sources = video.getElementsByTagName('source');
         sources[0].src = "";
-        video.setAttribute('poster', '/images/working-space_snapshot_mobile.jpg');
+        video.setAttribute('poster', '/images/web-design-software-solutions_snapshot_mobile.jpg');
         video.load();
     }
 }

@@ -13,7 +13,7 @@ Used to override styles of template
 .section-bg-video:before {
     content: '';
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     top: 0;
     right: 0;
@@ -113,6 +113,14 @@ body.theme-main .btn:hover {
 
 .contact-us.section-two-blocks>.row>div:last-child {
     background-color: #fff;
+}
+
+.theme-main .flex-control-paging li a:hover {
+    background-color: #b0cabc!important;
+}
+
+.theme-main .niche-box-testimonails-cloud p {
+    font-family: 'Mukta Vaani', sans-serif;
 }
 
 @media (max-width:992px) {

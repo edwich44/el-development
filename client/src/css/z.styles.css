@@ -142,3 +142,29 @@ body.theme-main .btn:hover {
         text-align: center;
     }
 }
+
+
+/* Hero Image */
+
+.theme-main .section-bg-video .videobox.image {
+    background-image: url('/images/web-design-software-solutions_snapshot_mobile.jpg');
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+    .theme-main .section-bg-video .videobox.image {
+        background-image: url('/images/el-development-web-design-medium.jpg');
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .theme-main .section-bg-video .videobox.image {
+        background-image: url('/images/el-development-web-design-large.jpg');
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .theme-main .section-bg-video .videobox.image {
+        background-image: url('/images/el-development-web-design.jpg');
+    }
+}

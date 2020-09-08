@@ -123,6 +123,14 @@ body.theme-main .btn:hover {
     font-family: 'Mukta Vaani', sans-serif;
 }
 
+.theme-main .btn-border {
+    color: #fff  !important;
+}
+
+.theme-main .btn-border:hover {
+    color: #fff  !important;
+}
+
 @media (max-width:992px) {
     .theme-main .call-action-box > div:nth-child(3) {
         position: initial;

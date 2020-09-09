@@ -76,6 +76,7 @@ body.theme-main .btn:hover {
     border: none;
 }
 
+
 .theme-main .navbar-main, .theme-main .navbar-header {
     background-color: #63967c;
 }
@@ -162,6 +163,11 @@ body.theme-main .btn:hover {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .no-padding-top-sm {
+        padding-top: 0px!important;
+    }
+}
 
 /* Hero Image */
 

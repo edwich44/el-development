@@ -130,6 +130,9 @@ body.theme-main .btn:hover {
 .theme-main .btn-border:hover {
     color: #fff  !important;
 }
+.theme-main .fa-ul > li > i {
+    color: #63967c;
+}
 
 @media (max-width:992px) {
     .theme-main .call-action-box > div:nth-child(3) {

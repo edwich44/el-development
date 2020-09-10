@@ -76,6 +76,9 @@ body.theme-main .btn:hover {
     border: none;
 }
 
+.text-ms {
+    font-size: 15px!important;
+}
 
 .theme-main .navbar-main, .theme-main .navbar-header {
     background-color: #63967c;

@@ -80,6 +80,10 @@ body.theme-main .btn:hover {
     font-size: 15px!important;
 }
 
+.theme-main .about-us .img-box.circle {
+    margin-bottom: 20px;
+}
+
 .theme-main .navbar-main, .theme-main .navbar-header {
     background-color: #63967c;
 }
